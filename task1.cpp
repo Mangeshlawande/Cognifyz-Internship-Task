@@ -4,7 +4,8 @@ using namespace std;
 /*
 Task: String Reversal
 
-Description:Write a program that takes a string as input and reverses it. Display the reversed string on the console.
+Description:Write a program that takes a string as input and reverses it.
+ Display the reversed string on the console.
 */
 void reverseString(char s[])
 {
