@@ -35,7 +35,7 @@ int main()
     cin >> range;
     if (range < 0)
     {
-        cout << " Please, Enter positive range.\n";
+        cout << "Please,Enter positive range.\n";
     }
     fibonacci(range);
     return 0;
