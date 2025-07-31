@@ -1,0 +1,1 @@
+ofstream class create hout object and use open() function in object.
