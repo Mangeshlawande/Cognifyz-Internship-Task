@@ -30,13 +30,21 @@ void fibonacci(int num)
 
 int main()
 {
-    int range;
-    cout << "Enter the range for fibonacci series :: \n";
-    cin >> range;
-    if (range < 0)
+    int choice = 1;
+    while (choice)
     {
-        cout << "Please,Enter positive range.\n";
+        int range;
+        cout << "Enter the range for fibonacci series :: \n";
+        cin >> range;
+        if (range < 0)
+        {
+            cout << "Please,Enter positive range.\n";
+        }
+        fibonacci(range);
+
+        cout << "Enter 0 for Exit.\n";
+        cout << "Enter 1 to Continue.\n";
+        cin >> choice;
     }
-    fibonacci(range);
     return 0;
 };

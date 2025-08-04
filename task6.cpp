@@ -21,7 +21,7 @@ bool isPalindrome(const string &str)
         end--;
     }
     return true; // It's a palindrome
-}
+};
 
 int main()
 {

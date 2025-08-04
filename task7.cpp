@@ -10,22 +10,9 @@ Calculate the average grade and display it to the user.
 Skills: Loops, arrays, basic arithmetic operations.
 
 */
-
-int main()
+void calculateStudGrade(int subjects)
 {
-
-    int subjects;
     float total = 0;
-
-    cout << "Enter the number of subjects: ";
-    cin >> subjects;
-
-    if (subjects <= 0)
-    {
-        cout << "Invalid number of subjects!" << endl;
-        return 1;
-    }
-    // Fixed-size array
     float grades[100];
 
     // Input grades for each subject
@@ -35,7 +22,7 @@ int main()
         cout << "Enter grade for subject " << i + 1 << ": ";
         cin >> grade;
 
-        // Validate grade
+        // for Validate grade
         if (grade < 0 || grade > 100)
         {
             cout << "Invalid grade. Please enter a value between 0 and 100." << endl;
@@ -51,6 +38,22 @@ int main()
     float average = total / subjects;
 
     cout << "The average grade is: " << average << endl;
+};
+
+int main()
+{
+
+    int subjects;
+
+    cout << "Enter the number of subjects: ";
+    cin >> subjects;
+
+    if (subjects <= 0)
+    {
+        cout << "Invalid number of subjects!" << endl;
+        return 1;
+    }
+    calculateStudGrade(subjects);
 
     return 0;
 };

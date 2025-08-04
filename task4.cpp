@@ -21,8 +21,9 @@ int main()
 
     cout << "Welcome to the Number Guessing Game!" << endl;
     cout << "The number is between 1 and 100." << endl;
-
+    // cout<<secret<<endl;
     // Loop until the correct guess
+
     while (true)
     {
         cout << "Enter your guess: ";
