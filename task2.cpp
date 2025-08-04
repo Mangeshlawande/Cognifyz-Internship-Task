@@ -8,16 +8,8 @@ Display the result on the console.
 Skills: Basic input/outputoperations, conditional statements,and arithmetic operations.
 */
 
-int main()
+void calculator(float a, float b, char ch)
 {
-
-    char ch;
-    float a, b;
-    cout << "Enter Two Numbers for operation : \n";
-    cin >> a >> b;
-    cout << "Enter operator (+, -, *, /, %) to perform calculation\n ";
-    cin >> ch;
-
     switch (ch)
     {
     case '+':
@@ -55,6 +47,24 @@ int main()
     default:
         printf("Error: Invalid operator.\n");
         break;
+    }
+};
+
+int main()
+{
+    int c = 1;
+    char ch;
+    float a, b;
+    while (c)
+    {
+        cout << "Enter Two Numbers for operation : \n";
+        cin >> a >> b;
+        cout << "Enter operator (+, -, *, /, %) to perform calculation\n ";
+        cin >> ch;
+        calculator(a, b, ch);
+        cout << "Enter 1 for continue.\n";
+        cout << "Enter 0 for Exit.\n";
+        cin >> c;
     }
 
     return 0;

@@ -6,7 +6,9 @@ Task: String Reversal
 
 Description:Write a program that takes a string as input and reverses it.
  Display the reversed string on the console.
+
 */
+//two pointer swapping 
 void reverseString(char s[])
 {
     int j, i;
