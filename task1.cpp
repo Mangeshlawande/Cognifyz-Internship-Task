@@ -8,7 +8,7 @@ Description:Write a program that takes a string as input and reverses it.
  Display the reversed string on the console.
 
 */
-//two pointer swapping 
+// two pointer swapping
 void reverseString(char s[])
 {
     int j, i;
@@ -41,3 +41,21 @@ int main()
 
     return 0;
 };
+/**
+ * output :
+ * 
+Enter the size of string :
+15
+Enter string :
+Two_pointer_swap
+Reverse of string : paws_retniop_owT
+
+===============
+
+Enter the size of string :
+30
+Enter string :
+Cognifyz
+Reverse of string : zyfingoC
+
+ */

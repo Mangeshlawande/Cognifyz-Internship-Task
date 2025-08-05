@@ -1,1 +1,14 @@
-ofstream class create hout object and use open() function in object.
+Description: Write a program that copies thecontents of one file to another. 
+Prompt the user to input the names of the source and destination files. 
+Read the contents of the source file and write them to the destination file. 
+
+Skills: File handling, basic input/outputoperations.
+
+useful classes for working with files in c++ are :
+1. fstreambase --> parent class.
+2. ifstream  --> child class
+3.ofstream  --> child class
+
+- In order to work with files, you will have to open it. There are 2 ways to open a file :
+1. using constructor 
+2. using member function open() of the class 

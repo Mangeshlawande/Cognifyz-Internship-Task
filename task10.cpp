@@ -196,3 +196,150 @@ int main()
 
     return 0;
 }
+
+/*
+output:
+
+mangesh@mangesh-HP-245-G8-Notebook-PC:~/Cognifyz_C++ Tasks$ g++ task10.cpp && ./a.out
+
+--- Inventory Management Menu ---
+1. Add Item
+2. Display All Items
+3. Search by ID
+4. Search by Name
+5. Update Item
+6. Delete Item
+7. Exit
+Enter your choice: 1
+Enter Item ID: 101
+Enter Item Name: bottle
+Enter Quantity: 3
+Enter Price: 20
+Item added successfully!
+
+--- Inventory Management Menu ---
+1. Add Item
+2. Display All Items
+3. Search by ID
+4. Search by Name
+5. Update Item
+6. Delete Item
+7. Exit
+Enter your choice: 1
+Enter Item ID: 102
+Enter Item Name: PenBox
+Enter Quantity: 5
+Enter Price: 60
+Item added successfully!
+
+--- Inventory Management Menu ---
+1. Add Item
+2. Display All Items
+3. Search by ID
+4. Search by Name
+5. Update Item
+6. Delete Item
+7. Exit
+Enter your choice: 1
+Enter Item ID: 103
+Enter Item Name: Books
+Enter Quantity: 6
+Enter Price: 50
+Item added successfully!
+
+--- Inventory Management Menu ---
+1. Add Item
+2. Display All Items
+3. Search by ID
+4. Search by Name
+5. Update Item
+6. Delete Item
+7. Exit
+Enter your choice: 1
+Enter Item ID: 104
+Enter Item Name: Bag
+Enter Quantity: 6
+Enter Price: 499
+Item added successfully!
+
+--- Inventory Management Menu ---
+1. Add Item
+2. Display All Items
+3. Search by ID
+4. Search by Name
+5. Update Item
+6. Delete Item
+7. Exit
+Enter your choice: 2
+
+--- Inventory List ---
+ID: 101, Name: bottle, Quantity: 3, Price: $20
+ID: 102, Name: PenBox, Quantity: 5, Price: $60
+ID: 103, Name: Books, Quantity: 6, Price: $50
+ID: 104, Name: Bag, Quantity: 6, Price: $499
+
+--- Inventory Management Menu ---
+1. Add Item
+2. Display All Items
+3. Search by ID
+4. Search by Name
+5. Update Item
+6. Delete Item
+7. Exit
+Enter your choice: 3
+Enter Item ID to search: 103
+ID: 103, Name: Books, Quantity: 6, Price: $50
+
+--- Inventory Management Menu ---
+1. Add Item
+2. Display All Items
+3. Search by ID
+4. Search by Name
+5. Update Item
+6. Delete Item
+7. Exit
+Enter your choice: 4
+Enter Item Name to search: Bag
+ID: 104, Name: Bag, Quantity: 6, Price: $499
+
+--- Inventory Management Menu ---
+1. Add Item
+2. Display All Items
+3. Search by ID
+4. Search by Name
+5. Update Item
+6. Delete Item
+7. Exit
+Enter your choice: 5
+Enter the ID of the item to update: 104
+Enter new details:
+Enter Item ID: 104
+Enter Item Name: Eraser
+Enter Quantity: 10
+Enter Price: 5
+Item updated successfully!
+
+--- Inventory Management Menu ---
+1. Add Item
+2. Display All Items
+3. Search by ID
+4. Search by Name
+5. Update Item
+6. Delete Item
+7. Exit
+Enter your choice: 6
+Enter the ID of the item to delete: 101
+Item deleted successfully!
+
+--- Inventory Management Menu ---
+1. Add Item
+2. Display All Items
+3. Search by ID
+4. Search by Name
+5. Update Item
+6. Delete Item
+7. Exit
+Enter your choice: 7
+Exiting...
+
+*/

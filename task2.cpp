@@ -69,3 +69,27 @@ int main()
 
     return 0;
 };
+
+/*
+output:
+
+Enter Two Numbers for operation : 
+15
+10
+Enter operator (+, -, *, /, %) to perform calculation
+ *
+Multiplication of 15 * 10 = 150 
+Enter 1 for continue.
+Enter 0 for Exit.
+1
+Enter Two Numbers for operation : 
+34
+6
+Enter operator (+, -, *, /, %) to perform calculation
+ /
+Division of 34 / 6 = 6 
+Enter 1 for continue.
+Enter 0 for Exit.
+0
+
+*/

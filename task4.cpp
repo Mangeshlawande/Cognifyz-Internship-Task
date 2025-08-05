@@ -46,3 +46,26 @@ int main()
 
     return 0;
 }
+
+/*
+
+output  :
+Welcome to the Number Guessing Game!
+The number is between 1 and 100.
+Enter your guess: 34
+Too low! Try a higher number.
+Enter your guess: 50
+Too high! Try a lower number.
+Enter your guess: 40
+Too low! Try a higher number.
+Enter your guess: 45
+Too high! Try a lower number.
+Enter your guess: 43
+Too high! Try a lower number.
+Enter your guess: 42
+Too high! Try a lower number.
+Enter your guess: 41
+Congratulations! You guessed the number correctly in 7 attempts.
+
+
+*/

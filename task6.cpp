@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 /*
-Task: Palindrome Checker Description: Write a program that checks whether agiven word or phrase is a palindrome.
+Task: Palindrome Checker Description: Write a program that checks whether a given word or phrase is a palindrome.
  A palindrome is a word or phrase that reads the same forwards and backwards.Prompt the user to input a word orphrase and display whether it is apalindrome or not.
 Skills: String manipulation, loops,conditional statements.
 */
@@ -42,3 +42,20 @@ int main()
 
     return 0;
 };
+
+/*
+g++ task6.cpp && ./a.out
+output:
+
+Enter the string for Palindrome check : racecar
+
+Given string is valid palindrome !!
+
+==================
+
+Enter the string for Palindrome check : Cognifyz
+
+Given string is invalid palindrome !!
+
+
+*/

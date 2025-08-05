@@ -62,3 +62,11 @@ int main()
     return 0;
 };
 
+/*
+output:
+
+Enter the source file name: sample.txt
+Enter the destination file name: input.txt
+File copied successfully from sample.txt to input.txt.
+
+*/

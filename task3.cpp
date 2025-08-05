@@ -48,3 +48,34 @@ int main()
     }
     return 0;
 };
+
+/**
+output :
+
+Enter the range for fibonacci series ::
+5
+0  1  1  2  3
+Enter 0 for Exit.
+Enter 1 to Continue.
+1
+Enter the range for fibonacci series ::
+7
+0  1  1  2  3  5  8
+Enter 0 for Exit.
+Enter 1 to Continue.
+1
+Enter the range for fibonacci series ::
+11
+0  1  1  2  3  5  8  13  21  34  55
+Enter 0 for Exit.
+Enter 1 to Continue.
+1
+Enter the range for fibonacci series ::
+-3
+Please,Enter positive range.
+
+Enter 0 for Exit.
+Enter 1 to Continue.
+0
+
+ */

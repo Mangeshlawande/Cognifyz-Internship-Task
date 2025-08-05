@@ -37,7 +37,7 @@ void calculateStudGrade(int subjects)
     // Calculate average
     float average = total / subjects;
 
-    cout << "The average grade is: " << average << endl;
+    printf("The average grade is: %d \n", average);
 };
 
 int main()
@@ -57,3 +57,17 @@ int main()
 
     return 0;
 };
+/*
+ g++ task7.cpp && ./a.out
+output::
+
+Enter the number of subjects: 4
+Enter grade for subject 1: 67
+Enter grade for subject 2: 78
+Enter grade for subject 3: 87
+Enter grade for subject 4: 89
+The average grade is: 80.25
+
+
+
+*/
